@@ -4,8 +4,8 @@ import { PageNav } from "../components/PageNav";
 export default function Homepage() {
   return (
     <>
+    <PageNav/>
     <main className={styles.homepage}>
-      <PageNav/>
         <div className={styles.header}>
           <h1>Welcome to IMEX Cargo</h1>
           
