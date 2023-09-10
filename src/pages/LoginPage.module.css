@@ -57,8 +57,8 @@
     text-align: center;
 }
 
-/* Media Queries */
-@media screen and (max-width: 768px) { /* for tablets */
+
+@media screen and (max-width: 768px) { 
     .loginContainer {
         padding: 1.5rem;
         margin: 3rem auto;
@@ -71,7 +71,7 @@
     }
 }
 
-@media screen and (max-width: 425px) { /*  for mobile phones */
+@media screen and (max-width: 425px) { 
     .loginContainer {
         margin: 1rem auto;
         padding: 1rem;

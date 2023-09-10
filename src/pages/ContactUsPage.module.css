@@ -81,7 +81,7 @@
 }
 
 
-@media screen and (max-width: 768px) { /* For tablets */
+@media screen and (max-width: 768px) { 
     .container {
         margin: 2.5rem auto;
         padding: 1.5rem;
@@ -91,7 +91,7 @@
     }
 }
 
-@media screen and (max-width: 425px) { /* For phones */
+@media screen and (max-width: 425px) { 
     .input,
     .button {
         width: 100%;

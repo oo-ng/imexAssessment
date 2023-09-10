@@ -57,13 +57,13 @@
     text-align: center;
 }
 
-@media screen and (max-width: 768px) { /*  for tablets */
+@media screen and (max-width: 768px) { 
     .signUpContainer {
         padding: 1.5rem;
     }
 }
 
-@media screen and (max-width: 425px) { /*  for mobile phones */
+@media screen and (max-width: 425px) { 
     .signUpHeader {
         font-size: 1.5rem; 
     }
