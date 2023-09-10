@@ -13,7 +13,7 @@
     margin-bottom: 20px;
 }
 
-.detailBox{
+.detailBox {
     background-color: #fff;
     padding: 15px;
     border-radius: 5px;
@@ -28,4 +28,32 @@
 
 .details:last-detail {
     margin-bottom: 0;
+}
+
+/* Dont forget Media Queries */
+@media screen and (max-width: 768px) { /* tablets */
+    .container {
+        padding: 15px;
+        max-width: 90%; 
+        margin: 30px auto;
+    }
+    
+    .header {
+        font-size: 20px;
+    }
+    
+    .details {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 425px) { /* for phones */
+    .container {
+        max-width: 95%; 
+        margin: 20px auto;
+    }
+
+    .detailBox {
+        padding: 10px;
+    }
 }

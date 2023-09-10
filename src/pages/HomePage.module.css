@@ -58,3 +58,27 @@
   color: #ffffff;
   text-decoration: underline;
 }
+
+
+@media screen and (max-width: 768px) { /*  for tablets */
+  .homepage {
+    padding: 2.5rem 1rem;
+  }
+
+  .testimonials, 
+  .partnerInfo {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .header h1, 
+  .header h2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 425px) { /*for phones*/
+  .header {
+    text-align: center;
+  }
+}

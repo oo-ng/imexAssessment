@@ -19,10 +19,7 @@ input[type="text"] {
     font-size: 1rem;
     border: none;
     border-radius: 5px ; 
-   
 }
-
-
 
 .searchButton {
     padding: 0.5rem 1.5rem;
@@ -34,9 +31,24 @@ input[type="text"] {
     border-radius: 5px;
 }
 
-.disabledLink{
+.disabledLink {
     background-color: #09093f;
-    cursor: not-allowed;
-    
+    cursor: not-allowed;   
 }
 
+/* Dont forget Media Queries */
+@media screen and (max-width: 600px) { 
+    .inputContainer {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    input[type="text"] {
+        width: 100%; 
+        margin-bottom: 1rem; 
+    }
+
+    .searchButton {
+        width: 100%; 
+    }
+}

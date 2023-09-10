@@ -5,7 +5,7 @@
     padding: 2rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
-    background-color:  #333;
+    background-color: #333;
 }
 
 .loginHeader {
@@ -52,7 +52,34 @@
     background-color: #0056b3;
 }
 
-.signup{
+.signup {
     padding: 5px;
     text-align: center;
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) { /* for tablets */
+    .loginContainer {
+        padding: 1.5rem;
+        margin: 3rem auto;
+    }
+    .loginHeader {
+        font-size: 1.5rem; 
+    }
+    .input, .loginButton {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 425px) { /*  for mobile phones */
+    .loginContainer {
+        margin: 1rem auto;
+        padding: 1rem;
+    }
+    .loginHeader {
+        font-size: 1.2rem;
+    }
+    .input, .loginButton {
+        font-size: 0.8rem;
+    }
 }

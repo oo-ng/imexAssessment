@@ -1,41 +1,78 @@
 .nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+.nav a:link,
+.nav a:visited {
+  text-decoration: none;
+  color: #A9A9A9;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.nav a:global(.active) {
+  color: #00008B;
+}
+
+a.ctaLink:link,
+a.ctaLink:visited {
+  background-color: var(--color-brand--2);
+  color: var(--color-dark--0);
+  padding: 0.8rem 2rem;
+  border-radius: 7px;
+}
+
+.signoutLoginButton {
+  background-color: #535358;
+  margin: 5px;
+  padding: 5px;
+  justify-content: flex-end;
+  font-size: medium;
+}
+
+.hamburger {
   
+  font-size: 2rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) { 
   .nav ul {
-    list-style: none;
-    display: flex;
-    align-items: center;
-    gap: 4rem;
+    flex-direction: column;
+    gap: .8rem;
+    align-items: flex-start;
+    position: relative;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    
+    border-radius: 4px;
   }
-  
+
   .nav a:link,
   .nav a:visited {
-    text-decoration: none;
-    color: #A9A9A9;
-    text-transform: uppercase;
-    font-size: 1.5rem;
-    font-weight: 600;
+    font-size: 1.2rem;
+    padding: 1rem 1.5rem; 
   }
-  
-  /* CSS Modules feature */
-  .nav a:global(.active) {
-    color: #00008B;
-  }
-  
+
   a.ctaLink:link,
   a.ctaLink:visited {
-    background-color: var(--color-brand--2);
-    color: var(--color-dark--0);
-    padding: 0.8rem 2rem;
-    border-radius: 7px;
+    padding: 0.6rem 1.5rem; 
   }
-  
-  .signoutLoginButton{
-    background-color: #535358;
-    margin: 10px;
-    padding: 10px;
-    justify-content: flex-end ;
+
+  .nav .hamburger {
+    display: block;
   }
+}

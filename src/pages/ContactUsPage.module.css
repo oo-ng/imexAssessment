@@ -23,8 +23,6 @@
     transition: border 0.3s, box-shadow 0.3s;
 }
 
-
-
 .button {
     padding: 0.8rem 1.2rem;
     background-color: #007BFF;
@@ -79,5 +77,26 @@
     }
     to {
         opacity: 0;
+    }
+}
+
+
+@media screen and (max-width: 768px) { /* For tablets */
+    .container {
+        margin: 2.5rem auto;
+        padding: 1.5rem;
+    }
+    .ContactUsHeader {
+        font-size: 1.6rem;
+    }
+}
+
+@media screen and (max-width: 425px) { /* For phones */
+    .input,
+    .button {
+        width: 100%;
+    }
+    .inquiryBox {
+        height: 120px;
     }
 }
