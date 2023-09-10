@@ -1,0 +1,42 @@
+.trackingPageContainer {
+    background-color: #242424;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff; 
+    font-family: 'Arial', sans-serif; 
+}
+
+.inputContainer {
+    display: flex;
+    gap: 1rem; 
+}
+
+input[type="text"] {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px ; 
+   
+}
+
+
+
+.searchButton {
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    background-color: #0202ab; 
+    color: #ffffff; 
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.disabledLink{
+    background-color: #09093f;
+    cursor: not-allowed;
+    
+}
+

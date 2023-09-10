@@ -1,0 +1,60 @@
+.homepage {
+  height: 100vh;
+  overflow: auto;
+  margin: 2.5rem;
+  padding: 2.5rem 5rem;
+  background-image: linear-gradient(
+      rgba(36, 42, 46, 0.8),
+      rgba(36, 42, 46, 0.8)
+    ),
+    url("../bg.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+.header {
+  border-bottom: 2px solid darkblue;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.header h1, 
+.header h2, 
+.header p {
+  margin-bottom: 20px;
+}
+
+.contentSection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.testimonials, 
+.partnerInfo {
+  background-color: rgba(36, 42, 46, 0.6);
+  padding: 20px;
+  border-radius: 8px;
+  width: 48%; 
+  box-sizing: border-box;
+}
+
+.testimonialQuote {
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.certifications {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.certification {
+  margin-bottom: 10px;
+}
+
+.contactLink {
+  color: #ffffff;
+  text-decoration: underline;
+}
